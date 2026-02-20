@@ -206,9 +206,7 @@ export function CashTransactionsPage() {
         <CardHeader className='flex flex-row items-center justify-between gap-4'>
           <div>
             <CardTitle>Histórico de movimentações</CardTitle>
-            <CardDescription>
-              Entradas e saídas ordenadas conforme retorno da API.
-            </CardDescription>
+            <CardDescription>Entradas e saídas.</CardDescription>
           </div>
           <div className='flex items-center gap-2'>
             <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>

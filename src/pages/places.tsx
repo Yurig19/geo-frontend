@@ -44,7 +44,8 @@ function getApiErrorMessage(error: unknown, fallback: string): string {
       message?: string;
     };
 
-    const message = obj.data?.detail ?? obj.data?.message ?? obj.detail ?? obj.message;
+    const message =
+      obj.data?.detail ?? obj.data?.message ?? obj.detail ?? obj.message;
     const code = obj.data?.code ?? obj.code;
 
     if (message && code) {
@@ -291,8 +292,7 @@ export function PlacesPage() {
         <CardHeader>
           <CardTitle>Salvar novo ponto</CardTitle>
           <CardDescription>
-            O backend infere automaticamente o uso do solo com base na
-            geometria.
+            O uso de solo é inferido automaticamente com base na geometria.
           </CardDescription>
         </CardHeader>
         <CardContent>
