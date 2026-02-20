@@ -1,0 +1,1 @@
+{"enum":["INCOME","EXPENSE"],"type":"string","description":"* `INCOME` - Income\n* `EXPENSE` - Expense","x-readme-ref-name":"MovementTypeEnum"}

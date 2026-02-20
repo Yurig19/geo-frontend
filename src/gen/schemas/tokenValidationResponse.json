@@ -1,0 +1,1 @@
+{"type":"object","properties":{"valid":{"type":"boolean","default":true},"user":{"type":"object","properties":{"id":{"type":"integer"},"username":{"type":"string"},"email":{"type":"string","format":"email"}},"required":["email","id","username"],"x-readme-ref-name":"AuthUserResponse"}},"required":["user"],"x-readme-ref-name":"TokenValidationResponse"}

@@ -1,0 +1,1 @@
+{"type":"object","properties":{"error":{"type":"boolean","readOnly":true},"code":{"type":"string","readOnly":true},"message":{"type":"string","readOnly":true}},"required":["code","error","message"],"x-readme-ref-name":"DomainErrorResponse"}

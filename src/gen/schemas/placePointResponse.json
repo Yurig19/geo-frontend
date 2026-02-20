@@ -1,0 +1,1 @@
+{"type":"object","properties":{"id":{"type":"string","format":"uuid","readOnly":true},"latitude":{"type":"number","format":"double","readOnly":true},"longitude":{"type":"number","format":"double","readOnly":true},"land_use_description":{"type":"string","readOnly":true}},"required":["id","land_use_description","latitude","longitude"],"x-readme-ref-name":"PlacePointResponse"}

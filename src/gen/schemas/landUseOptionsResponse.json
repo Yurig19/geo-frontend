@@ -1,0 +1,1 @@
+{"type":"object","properties":{"land_uses":{"type":"array","items":{"type":"string"},"readOnly":true}},"required":["land_uses"],"x-readme-ref-name":"LandUseOptionsResponse"}

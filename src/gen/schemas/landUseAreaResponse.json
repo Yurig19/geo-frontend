@@ -1,0 +1,1 @@
+{"type":"object","properties":{"land_use_description":{"type":"string","readOnly":true},"total_area_m2":{"type":"number","format":"double","readOnly":true}},"required":["land_use_description","total_area_m2"],"x-readme-ref-name":"LandUseAreaResponse"}

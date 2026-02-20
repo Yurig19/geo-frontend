@@ -1,0 +1,1 @@
+{"type":"object","properties":{"access":{"type":"string","readOnly":true}},"required":["access"],"x-readme-ref-name":"TokenRefresh"}
