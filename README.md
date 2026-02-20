@@ -14,6 +14,8 @@ Frontend web da aplicação Geo, construído com React + TypeScript + Vite + sha
 
 ```bash
 npm install
+# ou
+pnpm install
 ```
 
 2. Configure as variáveis de ambiente no arquivo `.env`:
@@ -28,6 +30,8 @@ Ambiente de desenvolvimento:
 
 ```bash
 npm run dev
+# ou
+pnpm dev
 ```
 
 Com Docker (desenvolvimento, com hot reload):
@@ -47,18 +51,24 @@ Build de produção:
 
 ```bash
 npm run build
+# ou
+pnpm build
 ```
 
 Preview do build:
 
 ```bash
 npm run preview
+# ou
+pnpm preview
 ```
 
 Lint:
 
 ```bash
 npm run lint
+# ou
+pnpm lint
 ```
 
 ## Rotas e páginas
