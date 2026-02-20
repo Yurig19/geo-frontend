@@ -18,7 +18,13 @@ npm install
 pnpm install
 ```
 
-2. Configure as variáveis de ambiente no arquivo `.env`:
+2. Crie seu arquivo de ambiente a partir do exemplo:
+
+```bash
+cp .env.example .env
+```
+
+3. Configure as variáveis de ambiente no arquivo `.env`:
 
 ```env
 VITE_API_URL=http://localhost:8000
